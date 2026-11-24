@@ -232,3 +232,12 @@ ul.clean li { margin-bottom: .5rem; }
   .hero { padding: 3.5rem 0 3rem; }
   section { padding: 2.5rem 0; }
 }
+
+.langs { display: inline-flex; gap: .35rem; margin-left: .5rem; }
+.lang-switch { border: 1px solid #5f8e91; border-radius: 999px; padding: .15rem .6rem; font-size: .8rem; color: #d8e8e8 !important; text-decoration: none; }
+.lang-switch.on { background: var(--copper); border-color: var(--copper); color: var(--white) !important; }
+ul.list { list-style: none; padding: 0; margin: 0; }
+ul.list li { padding: .7rem 0; border-bottom: 1px solid var(--line); }
+dl.legal dt { font-weight: 700; color: var(--teal-dark); margin-top: 1.2rem; }
+dl.legal dd { margin: .2rem 0 0 0; }
+.langs-root .btn { margin-right: .5rem; }
